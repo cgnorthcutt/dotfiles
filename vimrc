@@ -12,3 +12,6 @@ call vundle#end()
 filetype plugin indent on
 colorscheme gruvbox
 set background=dark
+if $COLORTERM == 'gnome-terminal'
+  set t_Co=256
+endif
