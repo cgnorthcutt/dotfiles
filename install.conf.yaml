@@ -12,6 +12,7 @@
     ~/.jupyter/jupyter_notebook_config.py: jupyter/jupyter_notebook_config.py
     ~/.jupyter/nbconfig/notebook.json: jupyter/notebook.json
     ~/.vimrc: vimrc
+    ~/.config: config
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
