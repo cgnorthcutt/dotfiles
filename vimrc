@@ -10,8 +10,5 @@ Plugin 'scrooloose/syntastic' "code syntaxis
 Plugin 'morhetz/gruvbox'
 call vundle#end()
 filetype plugin indent on
-if $TERM == "xterm-256color"
-  set t_Co=256
-endif
 colorscheme gruvbox
 set background=dark
