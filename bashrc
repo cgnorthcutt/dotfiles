@@ -117,10 +117,7 @@ if ! shopt -oq posix; then
 fi
 
 # Make vim support more than 8 colors
-if [ "$TERM" == "xterm" ]; then
-    # No it isn't, it's gnome-terminal
-    export TERM=xterm-256color
-fi
+export TERM=xterm-256color
 
 alias stopgpu='gcloud --project cgn-research compute instances stop gpu'
 alias startgpu='gcloud --project cgn-research compute instances start gpu'
