@@ -10,7 +10,7 @@
     ~/.bashrc: bashrc
     ~/.bash_logout: bash_logout
     ~/.jupyter/jupyter_notebook_config.py: jupyter/jupyter_notebook_config.py
-    ~/.jupyter/nbconfig/notebook.json: jupyter/notebook.json
+    ~/.jupyter/jupyter_notebook_config.json: jupyter/jupyter_notebook_config.json
     ~/.vimrc: vimrc
     ~/.config: config
 
