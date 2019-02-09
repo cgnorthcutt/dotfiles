@@ -1,8 +1,19 @@
+- defaults:
+    link:
+      relink: true
+
 - clean: ['~']
 
 - link:
+    ~/.dotfiles: ''
     ~/.profile: profile
     ~/.bashrc: bashrc
     ~/.bash_logout: bash_logout
+    ~/.jupyter/jupyter_notebook_config.py: jupyter/jupyter_notebook_config.py
+    ~/.jupyter/nbconfig/notebook.json: jupyter/notebook.json
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+
 
 
