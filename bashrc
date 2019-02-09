@@ -36,9 +36,6 @@ if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
 fi
 
 # set a fancy prompt (non-color, unless we know we "want" color)
-case "$TERM" in
-    xterm-color|*-256color) color_prompt=yes;;
-esac
 
 # uncomment for a colored prompt, if the terminal has the capability; turned
 # off by default to not distract the user: the focus in a terminal window
@@ -117,7 +114,7 @@ if ! shopt -oq posix; then
 fi
 
 # Make vim support more than 8 colors
-#export TERM=xterm-256color
+export TERM=xterm-256color
 
 alias stopgpu='gcloud --project cgn-research compute instances stop gpu'
 alias startgpu='gcloud --project cgn-research compute instances start gpu'

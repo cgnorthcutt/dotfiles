@@ -10,8 +10,5 @@ Plugin 'scrooloose/syntastic' "code syntaxis
 Plugin 'morhetz/gruvbox'
 call vundle#end()
 filetype plugin indent on
-colorscheme gruvbox
-set background=dark
-if $COLORTERM == 'gnome-terminal'
-  set t_Co=256
-endif
+syntax on
+colorscheme desert
