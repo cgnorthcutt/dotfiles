@@ -121,3 +121,28 @@ if [ "$TERM" == "xterm" ]; then
     # No it isn't, it's gnome-terminal
     export TERM=xterm-256color
 fi
+
+alias stopgpu='gcloud --project cgn-research compute instances stop gpu'
+alias startgpu='gcloud --project cgn-research compute instances start gpu'
+alias gpu='gcloud compute --project "cgn-research" ssh --zone "us-east1-c" "gpu"'
+alias gpunotebook='gcloud compute --project "cgn-research" ssh --zone "us-east1-c" "gpu" -- -N -p 22 -D localhost:8896 &'
+alias gpulab='gcloud compute --project "cgn-research" ssh --zone "us-east1-c" "gpu" -- -N -p 22 -D localhost:8896 &'
+alias sublime="open -a 'Sublime Text'"
+alias iqss="ssh -t -A -L 8891:localhost:8891 cnorthcutt@rce6.hmdc.harvard.edu ssh -A -L 8891:localhost:8891 cnorthcutt@edx-1.priv.hmdc.harvard.edu"
+alias rce="ssh -t -A -L 8895:localhost:8891 cnorthcutt@rce6-2.hmdc.harvard.edu"
+alias lab="jupyter lab &"
+alias easytex='function _mylatex(){ end=".tex"; pdflatex $1$end; open $1".pdf"; };_mylatex'
+alias tex='function _mybibtex(){ end=".tex"; pdflatex $1$end; bibtex $1; pdflatex $1$end; pdflatex $1$end; open $1".pdf"; };_mybibtex'
+alias c="pbcopy"
+alias fasttext='/Users/cgn/bin/fastText/fasttext'
+
+alias yoderimac='ssh cgn@18.62.28.184'
+alias yoderlab="ssh -N -f -L localhost:8890:localhost:8890 cgn@18.62.28.184"
+alias murphyimac='ssh cgn@18.62.30.141'
+alias murphylab="ssh -N -f -L localhost:8890:localhost:8890 cgn@18.62.27.76"
+alias gimac='ssh cgn@18.62.20.106'
+alias glab="ssh -N -f -L localhost:8890:localhost:8890 cgn@rle-eecs-mtl-dhcp-21-159.mit.edu"
+
+alias restartDropBox="osascript -e 'tell application \"Dropbox\" to quit';killall Dropbox;open -a \"Dropbox\""
+
+alias lengine='ssh 18.62.14.84'
