@@ -117,7 +117,7 @@ if ! shopt -oq posix; then
 fi
 
 # Make vim support more than 8 colors
-export TERM=xterm-256color
+#export TERM=xterm-256color
 
 alias stopgpu='gcloud --project cgn-research compute instances stop gpu'
 alias startgpu='gcloud --project cgn-research compute instances start gpu'
