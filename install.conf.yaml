@@ -13,6 +13,7 @@
     ~/.vimrc: vimrc
     ~/.vim: vim
     ~/.config/neofetch: config/neofetch
+    ~/.config/htop/htoprc: config/htop/htoprc
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
