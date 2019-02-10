@@ -140,3 +140,4 @@ alias glab="ssh -N -f -L localhost:8890:localhost:8890 cgn@rle-eecs-mtl-dhcp-21-
 alias restartDropBox="osascript -e 'tell application \"Dropbox\" to quit';killall Dropbox;open -a \"Dropbox\""
 
 alias lengine='ssh 18.62.14.84'
+alias dropbox='python3 $HOME/.dropbox/dropbox.py'
