@@ -1,0 +1,67 @@
+host github.com
+ HostName github.com
+ IdentityFile ~/.ssh/id_rsa
+ User git
+
+host pikeville
+ HostName pikeville.mit.edu
+ IdentityFile ~/.ssh/id_rsa
+ User cgn
+
+# 18.62.14.84
+host lengine
+ HostName learnengine1.mit.edu 
+ IdentityFile ~/.ssh/id_rsa
+ User cgn
+ ForwardAgent yes
+
+host dev
+ HostName devvm7393.prn2.facebook.com 
+ IdentityFile ~/.ssh/id_rsa_facebook
+ User cgn
+
+host cgnimac
+ HostName cgnimac.duckdns.org
+ IdentityFile ~/.ssh/id_rsa
+ User cgn
+ ForwardAgent yes
+
+host cgnpc
+ HostName cgnpc.duckdns.org
+ IdentityFile ~/.ssh/id_rsa
+ User cgn
+ ForwardAgent yes
+
+host gimac
+ HostName gimac.duckdns.org
+ IdentityFile ~/.ssh/id_rsa
+ User cgn
+ ForwardAgent yes
+
+host murphyimac
+ HostName murphyimac.duckdns.org
+ IdentityFile ~/.ssh/id_rsa
+ User cgn
+ ForwardAgent yes
+
+host yoderimac
+ HostName yoderimac.duckdns.org
+ IdentityFile ~/.ssh/id_rsa
+ User cgn
+ ForwardAgent yes
+
+host msegado
+ HostName msegado.duckdns.org
+ IdentityFile ~/.ssh/id_rsa
+ User cgn
+ ForwardAgent yes
+
+host gondor
+ HostName gondor.freedns.anish.io
+ User curtis  
+ ForwardAgent yes
+
+host mordor
+ HostName morder.freedns.anish.io
+ User curtis  
+ ForwardAgent yes
