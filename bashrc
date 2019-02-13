@@ -113,6 +113,12 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/cgn/google-cloud-sdk/path.bash.inc' ]; then . '/Users/cgn/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/cgn/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/cgn/google-cloud-sdk/completion.bash.inc'; fi
+
 # Make vim support more than 8 colors
 export TERM=xterm-256color
 
@@ -130,14 +136,11 @@ alias tex='function _mybibtex(){ end=".tex"; pdflatex $1$end; bibtex $1; pdflate
 alias c="pbcopy"
 alias fasttext='/Users/cgn/bin/fastText/fasttext'
 
-alias yoderimac='ssh cgn@18.62.28.184'
 alias yoderlab="ssh -N -f -L localhost:8890:localhost:8890 cgn@18.62.28.184"
-alias murphyimac='ssh cgn@18.62.30.141'
 alias murphylab="ssh -N -f -L localhost:8890:localhost:8890 cgn@18.62.27.76"
-alias gimac='ssh cgn@18.62.20.106'
 alias glab="ssh -N -f -L localhost:8890:localhost:8890 cgn@rle-eecs-mtl-dhcp-21-159.mit.edu"
 
 alias restartDropBox="osascript -e 'tell application \"Dropbox\" to quit';killall Dropbox;open -a \"Dropbox\""
-
-alias lengine='ssh 18.62.14.84'
 alias dropbox='python3 $HOME/.dropbox/dropbox.py'
+
+alias dgx="ssh -t cgn@prn-shell02 -t ssh cgn@sea104-dgx111"
