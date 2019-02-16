@@ -144,3 +144,19 @@ alias restartDropBox="osascript -e 'tell application \"Dropbox\" to quit';killal
 alias dropbox='python3 $HOME/.dropbox/dropbox.py'
 
 alias dgx="ssh -t cgn@prn-shell02 -t ssh cgn@sea104-dgx111"
+# added by Miniconda3 4.5.12 installer
+# >>> conda init >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$(CONDA_REPORT_ERRORS=false '/home/cgn/miniconda3/bin/conda' shell.bash hook 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    \eval "$__conda_setup"
+else
+    if [ -f "/home/cgn/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/cgn/miniconda3/etc/profile.d/conda.sh"
+        CONDA_CHANGEPS1=false conda activate base
+    else
+        \export PATH="/home/cgn/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda init <<<
