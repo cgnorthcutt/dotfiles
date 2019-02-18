@@ -162,4 +162,4 @@ unset __conda_setup
 # <<< conda init <<<
 
 # Add $HOME/bin to path for bazel (used to build tensorflow from source)
-export PATH="$PATH:$HOME/bin
+export PATH="$PATH:$HOME/bin"
