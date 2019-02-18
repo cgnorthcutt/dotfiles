@@ -163,3 +163,4 @@ alias dgx="ssh -t cgn@prn-shell02 -t ssh cgn@sea104-dgx111"
 
 # For making python3 default on all systems
 alias python=python3
+alias pip=pip3
