@@ -131,7 +131,7 @@ alias sublime="open -a 'Sublime Text'"
 alias iqss="ssh -t -A -L 8891:localhost:8891 cnorthcutt@rce6.hmdc.harvard.edu ssh -A -L 8891:localhost:8891 cnorthcutt@edx-1.priv.hmdc.harvard.edu"
 alias rce="ssh -t -A -L 8895:localhost:8891 cnorthcutt@rce6-2.hmdc.harvard.edu"
 alias lab="jupyter lab &"
-alias easytex='function _mylatex(){ end=".tex"; pdflatex $1$end; open $1".pdf"; };_mylatex'
+alias simpletex='function _mylatex(){ end=".tex"; pdflatex $1$end; open $1".pdf"; };_mylatex'
 alias tex='function _mybibtex(){ end=".tex"; pdflatex $1$end; bibtex $1; pdflatex $1$end; pdflatex $1$end; open $1".pdf"; };_mybibtex'
 alias c="pbcopy"
 alias fasttext='/Users/cgn/bin/fastText/fasttext'
@@ -144,7 +144,9 @@ alias restartDropBox="osascript -e 'tell application \"Dropbox\" to quit';killal
 alias dropbox='python3 $HOME/.dropbox/dropbox.py'
 
 alias dgx="ssh -t cgn@prn-shell02 -t ssh cgn@sea104-dgx111"
-# added by Miniconda3 4.5.12 installer
+alias sublime="subl"
+alias imac_cluster="osascript $HOME/.scpt/imac_cluster.scpt"
+
 # >>> conda init >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$(CONDA_REPORT_ERRORS=false '/home/cgn/miniconda3/bin/conda' shell.bash hook 2> /dev/null)"
@@ -163,3 +165,8 @@ unset __conda_setup
 
 # Add $HOME/bin to path for bazel (used to build tensorflow from source)
 export PATH="$PATH:$HOME/bin"
+# Fixes access issues since El Capitan
+export PATH="$PATH:/usr/bin"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
