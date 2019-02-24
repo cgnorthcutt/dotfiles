@@ -170,3 +170,7 @@ export PATH="$PATH:/usr/bin"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+
+# Make python3 default on all systems
+alias python="python3"
+alias pip="pip3"
