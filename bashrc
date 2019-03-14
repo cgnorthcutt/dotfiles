@@ -176,4 +176,3 @@ export PATH="$PATH:/usr/local/cuda-10.1/bin"
 
 # Make python3 default on all systems
 alias python="python3"
-alias pip="pip3"
