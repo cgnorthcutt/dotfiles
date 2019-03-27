@@ -3,6 +3,10 @@ host github.com
  IdentityFile ~/.ssh/id_rsa
  User git
 
+host morehead
+ HostName 18.62.21.44
+ User cgn
+
 host pikeville
  HostName pikeville.mit.edu
  IdentityFile ~/.ssh/id_rsa
