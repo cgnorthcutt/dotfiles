@@ -4,13 +4,16 @@ host github.com
  User git
 
 host morehead
- HostName 18.62.21.44
+ HostName morehead.mit.edu
+ IdentityFile ~/.ssh/id_rsa
  User cgn
+ ForwardAgent yes
 
 host pikeville
  HostName pikeville.mit.edu
  IdentityFile ~/.ssh/id_rsa
  User cgn
+ ForwardAgent yes
 
 # 18.62.14.84
 host lengine
