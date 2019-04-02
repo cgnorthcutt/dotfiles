@@ -12,7 +12,6 @@
     ~/.jupyter/jupyter_notebook_config.json: jupyter/jupyter_notebook_config.json
     ~/.vimrc: vimrc
     ~/.vim: vim
-    ~/.config/neofetch: config/neofetch
     ~/.config/htop/htoprc: config/htop/htoprc
     ~/.ssh/config: ssh/config
 
