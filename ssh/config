@@ -23,7 +23,7 @@ host lengine
  ForwardAgent yes
 
 host dev
- HostName devvm7393.prn2.facebook.com 
+ HostName devvm6549.prn2.facebook.com 
  IdentityFile ~/.ssh/id_rsa_facebook
  User cgn
 
