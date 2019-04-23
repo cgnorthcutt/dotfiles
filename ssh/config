@@ -4,7 +4,13 @@ host github.com
  User git
 
 host morehead
- HostName 18.62.7.14
+ HostName morehead.mit.edu
+ IdentityFile ~/.ssh/id_rsa
+ User cgn
+ ForwardAgent yes
+
+host richmond
+ HostName richmond.mit.edu
  IdentityFile ~/.ssh/id_rsa
  User cgn
  ForwardAgent yes
