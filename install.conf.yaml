@@ -16,7 +16,6 @@
     ~/.jupyter/lab/workspaces/lab-a511.jupyterlab-workspace: jupyter/lab/workspaces/lab-a511.jupyterlab-workspace
     ~/.vimrc: vimrc
     ~/.vim: vim
-    ~/.config/neofetch: config/neofetch
     ~/.config/htop/htoprc: config/htop/htoprc
     ~/.ssh/config: ssh/config
 
