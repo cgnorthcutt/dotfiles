@@ -10,6 +10,10 @@
     ~/.bash_logout: bash_logout
     ~/.jupyter/jupyter_notebook_config.py: jupyter/jupyter_notebook_config.py
     ~/.jupyter/jupyter_notebook_config.json: jupyter/jupyter_notebook_config.json
+    ~/.jupyter/lab/user-settings/@jupyterlab/apputils-extension/themes.jupyterlab-settings: jupyter/lab/user-settings/@jupyterlab/apputils-extension/themes.jupyterlab-settings
+    ~/.jupyter/lab/user-settings/@jupyterlab/fileeditor-extension/plugin.jupyterlab-settings: jupyter/lab/user-settings/@jupyterlab/fileeditor-extension/plugin.jupyterlab-settings
+    ~/.jupyter/lab/user-settings/@jupyterlab/notebook-extension/tracker.juypterlab-settings: jupyter/lab/user-settings/@jupyterlab/notebook-extension/tracker.jupyterlab-settings
+    ~/.jupyter/lab/workspaces/lab-a511.jupyterlab-workspace: jupyter/lab/workspaces/lab-a511.jupyterlab-workspace
     ~/.vimrc: vimrc
     ~/.vim: vim
     ~/.config/neofetch: config/neofetch
