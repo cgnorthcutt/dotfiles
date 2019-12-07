@@ -168,6 +168,9 @@ export PATH="$PATH:$HOME/bin"
 # Fixes access issues since El Capitan
 export PATH="$PATH:/usr/bin"
 
+# Makes pytorch gpu number match nvidia-smi number
+export CUDA_DEVICE_ORDER=PCI_BUS_ID
+
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
