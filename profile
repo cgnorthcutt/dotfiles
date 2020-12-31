@@ -28,3 +28,6 @@ fi
 
 # Load RVM (Ruby Version Manager) into a shell session *as a function
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+
