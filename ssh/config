@@ -1,5 +1,5 @@
 host lexington
- HostName 18.25.24.182
+ HostName 18.25.26.23
  IdentityFile ~/.ssh/id_rsa
  User cgn
 
