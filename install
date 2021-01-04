@@ -11,7 +11,7 @@ BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 rm ~/.profile
 rm ~/.bashrc
 rm ~/.bash_logout
-mkdir ~/.jupyter
+mkdir -p ~/.jupyter
 mkdir -p ~/.jupyter/lab/user-settings/@jupyterlab/apputils-extension
 mkdir -p ~/.jupyter/lab/user-settings/@jupyterlab/fileeditor-extension
 mkdir -p ~/.jupyter/lab/user-settings/@jupyterlab/notebook-extension
