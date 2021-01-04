@@ -8,9 +8,9 @@ DOTBOT_DIR="dotbot"
 DOTBOT_BIN="bin/dotbot"
 BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-rm ~/.profile
-rm ~/.bashrc
-rm ~/.bash_logout
+rm -f -- ~/.profile
+rm -f -- ~/.bashrc
+rm -f -- ~/.bash_logout
 mkdir -p ~/.jupyter
 mkdir -p ~/.jupyter/lab/user-settings/@jupyterlab/apputils-extension
 mkdir -p ~/.jupyter/lab/user-settings/@jupyterlab/fileeditor-extension
