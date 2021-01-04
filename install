@@ -15,7 +15,6 @@ mkdir ~/.jupyter
 mkdir -p ~/.jupyter/lab/user-settings/@jupyterlab/apputils-extension
 mkdir -p ~/.jupyter/lab/user-settings/@jupyterlab/fileeditor-extension
 mkdir -p ~/.jupyter/lab/user-settings/@jupyterlab/notebook-extension
-mkdir -p ~/.jupyter/lab/workspaces
 mkdir -p ~/.config/htop
 
 cd "${BASEDIR}"
