@@ -8,6 +8,16 @@ DOTBOT_DIR="dotbot"
 DOTBOT_BIN="bin/dotbot"
 BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+rm ~/.profile
+rm ~/.bashrc
+rm ~/.bash_logout
+mkdir ~/.jupyter
+mkdir -p ~/.jupyter/lab/user-settings/@jupyterlab/apputils-extension
+mkdir -p ~/.jupyter/lab/user-settings/@jupyterlab/fileeditor-extension
+mkdir -p ~/.jupyter/lab/user-settings/@jupyterlab/notebook-extension
+mkdir -p ~/.jupyter/lab/workspaces
+mkdir -p ~/.config/htop
+
 cd "${BASEDIR}"
 git -C "${DOTBOT_DIR}" submodule sync --quiet --recursive
 git submodule update --init --recursive "${DOTBOT_DIR}"
