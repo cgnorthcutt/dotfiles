@@ -11,6 +11,8 @@ BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 rm -f -- ~/.profile
 rm -f -- ~/.bashrc
 rm -f -- ~/.bash_logout
+rm -f -- ~/.vimrc
+mkdir -p ~/.vim
 mkdir -p ~/.jupyter
 mkdir -p ~/.jupyter/lab/user-settings/@jupyterlab/apputils-extension
 mkdir -p ~/.jupyter/lab/user-settings/@jupyterlab/fileeditor-extension

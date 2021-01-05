@@ -14,7 +14,8 @@
     ~/.jupyter/lab/user-settings/@jupyterlab/fileeditor-extension/plugin.jupyterlab-settings: jupyter/lab/user-settings/@jupyterlab/fileeditor-extension/plugin.jupyterlab-settings
     ~/.jupyter/lab/user-settings/@jupyterlab/notebook-extension/tracker.juypterlab-settings: jupyter/lab/user-settings/@jupyterlab/notebook-extension/tracker.jupyterlab-settings
     ~/.vimrc: vimrc
-    ~/.vim: vim
+    ~/.vim/colors: vim/colors
+    ~/.vim/bundle: vim/bundle
     ~/.config/htop/htoprc: config/htop/htoprc
     ~/.ssh/config: ssh/config
 
