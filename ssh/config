@@ -3,6 +3,11 @@ host frankfort
  IdentityFile ~/.ssh/id_rsa
  User cgn
 
+host frankfort
+ HostName frankfort.mit.edu
+ IdentityFile ~/.ssh/id_rsa
+ User cgn
+
 host kentucky
  HostName kentucky.mit.edu
  IdentityFile ~/.ssh/id_rsa
