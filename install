@@ -12,6 +12,7 @@ rm -f -- ~/.profile
 rm -f -- ~/.bashrc
 rm -f -- ~/.bash_logout
 rm -f -- ~/.vimrc
+rm -f -- ~/.gitconfig
 mkdir -p ~/.vim
 mkdir -p ~/.jupyter
 mkdir -p ~/.jupyter/lab/user-settings/@jupyterlab/apputils-extension

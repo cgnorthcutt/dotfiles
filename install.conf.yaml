@@ -5,6 +5,7 @@
 - clean: ['~']
 
 - link:
+    ~/.gitconfig: gitconfig
     ~/.profile: profile
     ~/.bashrc: bashrc
     ~/.bash_logout: bash_logout

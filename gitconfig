@@ -1,0 +1,6 @@
+[alias]
+	ff = merge --ff-only
+	noff = merge --no-ff
+	f = fetch --tags --prune
+	fa = fetch --all --tags --prune
+	pullrb = pull --rebase
