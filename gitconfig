@@ -4,3 +4,48 @@
 	f = fetch --tags --prune
 	fa = fetch --all --tags --prune
 	pullrb = pull --rebase
+        lt  =  log --graph  --decorate --all --oneline
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
