@@ -78,6 +78,13 @@ host yoderimac
  User cgn
  ForwardAgent yes
 
+host cgnwsl
+ HostName 8.tcp.ngrok.io
+ Port 12664
+ IdentityFile ~/.ssh/id_rsa
+ User cgn
+ ForwardAgent yes
+
 host msegado
  HostName msegado.duckdns.org
  IdentityFile ~/.ssh/id_rsa
