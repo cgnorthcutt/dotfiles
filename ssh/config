@@ -1,3 +1,14 @@
+Host mammothcave
+  HostName mammothcave.duckdns.org
+  User cgn
+  Port 50222
+  IdentityFile ~/.ssh/id_ed25519
+
+Host github.com
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_ed25519
+
 host frankfort
  HostName frankfort.mit.edu
  IdentityFile ~/.ssh/id_rsa
@@ -79,8 +90,8 @@ host yoderimac
  ForwardAgent yes
 
 host cgnwsl
- HostName 8.tcp.ngrok.io
- Port 12664
+ HostName 2.tcp.ngrok.io
+ Port 19396
  IdentityFile ~/.ssh/id_rsa
  User cgn
  ForwardAgent yes

@@ -152,18 +152,18 @@ alias imac_cluster="osascript $HOME/.scpt/imac_cluster.scpt"
 
 # >>> conda init >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$(CONDA_REPORT_ERRORS=false '/home/cgn/miniconda3/bin/conda' shell.bash hook 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    \eval "$__conda_setup"
-else
-    if [ -f "/home/cgn/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/cgn/miniconda3/etc/profile.d/conda.sh"
-        CONDA_CHANGEPS1=false conda activate base
-    else
-        \export PATH="/home/cgn/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
+# __conda_setup="$(CONDA_REPORT_ERRORS=false '/home/cgn/miniconda3/bin/conda' shell.bash hook 2> /dev/null)"
+# if [ $? -eq 0 ]; then
+#     \eval "$__conda_setup"
+# else
+#     if [ -f "/home/cgn/miniconda3/etc/profile.d/conda.sh" ]; then
+#         . "/home/cgn/miniconda3/etc/profile.d/conda.sh"
+#         CONDA_CHANGEPS1=false conda activate base
+#     else
+#         \export PATH="/home/cgn/miniconda3/bin:$PATH"
+#     fi
+# fi
+# unset __conda_setup
 # <<< conda init <<<
 
 # Add $HOME/bin to path for bazel (used to build tensorflow from source)
