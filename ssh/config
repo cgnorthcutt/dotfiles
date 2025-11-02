@@ -1,8 +1,11 @@
-Host mammothcave
-  HostName mammothcave.duckdns.org
+# mcwg = mammothcave over WireGuard (WG) VPN
+Host mc
+  HostName 192.168.1.135
   User cgn
-  Port 50222
+  Port 22
   IdentityFile ~/.ssh/id_ed25519
+  IPQoS lowdelay lowdelay
+  Compression yes
 
 Host github.com
   AddKeysToAgent yes
