@@ -1,5 +1,5 @@
 # mcwg = mammothcave over WireGuard (WG) VPN
-Host mc
+Host mcwg
   HostName 192.168.1.135
   User cgn
   Port 22
